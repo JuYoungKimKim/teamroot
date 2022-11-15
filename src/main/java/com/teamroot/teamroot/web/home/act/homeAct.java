@@ -10,4 +10,9 @@ public class homeAct {
     public String home(){
         return "index";
     }
+
+    @RequestMapping("/list")
+    public String home2(){
+        return "index2";
+    }
 }
